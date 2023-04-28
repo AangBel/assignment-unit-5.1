@@ -28,8 +28,8 @@ console.log('A little about me:', me);
  // fullName() { console.log(firstName + lastName) }
 //
 //let fullName = {console.log(firstName  , lastName ) };
-//----idk--
-
+let fullName = `${me.firstName}, ${me.lastName}`;
+console.log(fullName);
 
 /* 3. Nested arrays
   - Console.log your first favorite food
@@ -55,8 +55,11 @@ console.log(me.shoeCount +1);
   - Console.log your object
 */
 ///console.log(me.favoriteColor)
-let favoriteColor = obj => {
-  obj.favoriteColor = ['Blue'];
-};
-console.log(favoriteColor);
-console.log(me)
+//let favoriteColor = obj => {
+ // obj.favoriteColor = ['Blue'];
+//};
+//console.log(favoriteColor);
+
+
+me.favoriteColor = 'Blue';
+console.log( me );
