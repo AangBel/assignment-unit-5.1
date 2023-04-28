@@ -54,3 +54,9 @@ console.log(me.shoeCount +1);
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
+///console.log(me.favoriteColor)
+let favoriteColor = obj => {
+  obj.favoriteColor = ['Blue'];
+};
+console.log(favoriteColor);
+console.log(me)
