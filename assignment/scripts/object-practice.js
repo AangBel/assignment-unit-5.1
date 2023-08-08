@@ -12,7 +12,7 @@ const me = {
   firstName: 'Angelica',
   lastName: 'Beltran',
   hasSiblings: true,
-  shoeCount: 30,
+  shoeCount: 33,
   favThreeFoods: ['mango', 'cake', 'pizza'],
 };
 console.log('A little about me:', me);
@@ -23,12 +23,11 @@ console.log('A little about me:', me);
     created above to set its value. 
   - Console.log fullName
 */
-//let fullName = {firstName ,lastName};
-//console.log(fullName);
+// let fullName = {firstName ,lastName};
+// console.log(fullName);
  // fullName() { console.log(firstName + lastName) }
 //
-//let fullName = {console.log(firstName  , lastName ) };
-let fullName = `${me.firstName}, ${me.lastName}`;
+let fullName = (me.firstName, me.lastName)
 console.log(fullName);
 
 /* 3. Nested arrays
@@ -54,11 +53,6 @@ console.log(me.shoeCount +1);
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
-///console.log(me.favoriteColor)
-//let favoriteColor = obj => {
- // obj.favoriteColor = ['Blue'];
-//};
-//console.log(favoriteColor);
 
 
 me.favoriteColor = 'Blue';
